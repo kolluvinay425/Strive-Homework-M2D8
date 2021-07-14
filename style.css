@@ -1,0 +1,39 @@
+.nav {
+    background-color: blue;
+    height: 50px;
+    padding: 0%;
+    
+}
+.nav a{
+    color: whitesmoke;
+}
+.column-padding p{
+    padding: 40px;
+
+    
+}
+.col-margin p{
+    margin: 2px black;
+    
+
+}
+.col-6{
+    background-color: green;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.col-2{
+    background-color: skyblue;
+    
+}
+.col-4{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.padding p :nth-child(1){
+    background-color: slateblue;
+}
+.center-para p{
+    text-align: center;
+}
+
