@@ -1,39 +1,67 @@
 .nav {
-    background-color: blue;
-    height: 50px;
-    padding: 0%;
-    
+  background-color: blue;
+  height: 50px;
+  padding: 0%;
 }
-.nav a{
-    color: whitesmoke;
+.nav a {
+  color: whitesmoke;
 }
-.column-padding p{
-    padding: 40px;
-
-    
+.column-padding p {
+  padding: 40px;
 }
-.col-margin p{
-    margin: 2px black;
-    
-
+.col-margin p {
+  margin: 2px black;
 }
-.col-6{
-    background-color: green;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+.col-6 {
+  background-color: green;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
-.col-2{
-    background-color: skyblue;
-    
+.col-2 {
+  background-color: skyblue;
 }
-.col-4{
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+.col-4 {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
-.padding p :nth-child(1){
-    background-color: slateblue;
+.padding p :nth-child(1) {
+  background-color: slateblue;
 }
-.center-para p{
-    text-align: center;
+.center-para p {
+  text-align: center;
 }
 
+div h1:first-of-type {
+  font-weight: lighter;
+}
+
+div p:first-of-type {
+  font-weight: 300;
+}
+
+.first-deck {
+  padding-top: 50px;
+}
+
+.decks {
+  padding-top: 25px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box > * {
+  flex: 1 1;
+}
+
+.btn3 {
+  font-size: small;
+  height: 30px;
+  max-width: 55px;
+}
+
+.last-deck {
+  padding-bottom: 50px;
+}
